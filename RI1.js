@@ -141,27 +141,27 @@ const personagem1 = {
         console.log("----------- Comparacao --------------");
 
         if (p1.forca > p2.forca) {
-          console.log(`Vantagem em FORÇA: ${p1.nome}`);
+          console.log(`Vantagem em FORCA: ${p1.nome}`);
         } else if (p2.forca > p1.forca) {
-          console.log(`Vantagem em FORÇA: ${p2.nome}`);
+          console.log(`Vantagem em FORCA: ${p2.nome}`);
         } else {
-          console.log("FORÇA: Empate");
+          console.log("FORÇA: empate");
         }
 
         if (p1.velocidade > p2.velocidade) {
-          console.log(`Vantagem em VELOCIDADE: ${p1.nome}`);
+          console.log(`Vantagem em VELOCDADE: ${p1.nome}`);
         } else if (p2.velocidade > p1.velocidade) {
-          console.log(`Vantagem em VELOCIDADE: ${p2.nome}`);
+          console.log(`Vantagem em VELOCDADE: ${p2.nome}`);
         } else {
-          console.log("VELOCIDADE: Empate");
+          console.log("VELOCIDADE: empate");
         }
 
         if (p1.resistencia > p2.resistencia) {
-          console.log(`Vantagem em RESISTÊNCIA: ${p1.nome}`);
+          console.log(`Vantagem em RESISTENCIA: ${p1.nome}`);
         } else if (p2.resistencia > p1.resistencia) {
-          console.log(`Vantagem em RESISTÊNCIA: ${p2.nome}`);
+          console.log(`Vantagem em RESISTENCIA: ${p2.nome}`);
         } else {
-          console.log("RESISTÊNCIA: Empate");
+          console.log("RESISTENCIA: empate");
         }
 
       }
